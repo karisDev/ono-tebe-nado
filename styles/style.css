@@ -133,7 +133,11 @@ h2 {
   margin-top: 165px;
 }
 
-.hero .hero__spaced {
+.hero__first_row {
+  line-height: 100%;
+}
+
+.hero__spaced {
   letter-spacing: 60px;
 }
 
@@ -180,9 +184,9 @@ h2 {
 }
 
 .lots {
-  --lot-1: url("/images/card-lot-01.jpg");
-  --lot-2: url("/images/card-lot-02.jpg");
-  --lot-3: url("/images/card-lot-03.jpg");
+  --lot-1: url("../images/card-lot-01.jpg");
+  --lot-2: url("../images/card-lot-02.jpg");
+  --lot-3: url("../images/card-lot-03.jpg");
   padding-inline: 24px;
   padding-block: 179px 146px;
 }
