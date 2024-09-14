@@ -78,7 +78,6 @@ h2 {
 .nav__logo {
   height: 105px;
   width: auto;
-  margin-right: auto;
 }
 
 .nav__separator {
@@ -89,6 +88,10 @@ h2 {
 .common__contacts {
   font-style: normal;
   line-height: 24px;
+}
+
+.nav .common__contacts {
+  margin-left: auto;
 }
 
 .hero {
@@ -121,20 +124,19 @@ h2 {
   font-weight: 700;
   line-height: 115%;
   letter-spacing: 30px;
-  line-height: 100%;
+  line-height: 115%;
   margin-top: 165px;
 }
 
-.hero h1 span {
+.hero .hero__spaced {
   letter-spacing: 60px;
 }
 
 .hero__spacing {
-  min-width: calc(336px - 50px);
-  display: inline-block;
+  padding-left: calc(336px - 50px);
 }
 
-.hero h1 span:nth-of-type(3) {
+.hero .hero__spaced:nth-of-type(4) {
   padding-left: calc(633px - 50px);
 }
 
@@ -158,11 +160,6 @@ h2 {
   text-decoration: none;
   padding: 11px 32px;
   border: 1px solid white;
-}
-
-.hero h1 {
-  letter-spacing: 30px;
-  line-height: 115%;
 }
 
 .lots h2 {
