@@ -18,6 +18,11 @@ h2 {
   text-transform: uppercase;
 }
 
+.main_layout {
+  width: 1052px;
+  margin-inline: auto;
+}
+
 .about {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -88,6 +93,7 @@ h2 {
 .common__contacts {
   font-style: normal;
   line-height: 24px;
+  width: 237px;
 }
 
 .nav .common__contacts {
@@ -97,7 +103,7 @@ h2 {
 .hero {
   text-transform: uppercase;
   height: 757px;
-  background: url(/images/cover.jpg) lightgray -138.084px -78.122px / 124.727% 120.828% no-repeat;
+  background: url(../images/cover.jpg) lightgray -138.084px -78.122px / 124.727% 120.828% no-repeat;
   position: relative;
   color: white;
   display: flex;
